@@ -1,0 +1,44 @@
+body {background-color:papayawhip;}
+#name {text-shadow:5px gray;
+  color:orange;
+  text-align:center;
+  font-size: 60px;}
+  #name:hover {color: teal;
+  font-size:80px }
+h1::first-letter {
+  font-size: 200%;
+  color:teal;}
+#denno { position: relative;
+  left: 1000px;
+  border-radius: 50%;}
+  #denno:hover {
+  transform: scale(1.2);
+}
+#para {text-align: center;
+font-size: 40px;
+color:teal;}
+ul {text-align: center;
+  font-style: italic;
+font-size:30px;
+color:orange; }
+li:hover {color:teal;
+  font-size: 40px}
+button {height:60px;
+     width:250px;
+     border-radius:20%;
+     background-color:orange;
+      position: relative;
+      left:1100px;
+      text-align:center;
+      border-radius:10px;
+    font-weight: bold;
+    font-size:20px;
+      border-color: red;
+        color:white;
+      opacity:30px;
+      border: 1px red;
+ padding: 10px;
+ box-shadow: 4px 4px teal;}
+button:hover {background-color:teal;
+height: 80px;
+width: 300px}
