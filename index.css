@@ -3,8 +3,7 @@ body {background-color:papayawhip;}
   color:orange;
   text-align:center;
   font-size: 60px;}
-  #name:hover {color: teal;
-  font-size:80px }
+  #name:hover {font-size:80px }
 h1::first-letter {
   font-size: 200%;
   color:teal;}
