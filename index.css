@@ -7,8 +7,9 @@ body {background-color:papayawhip;}
 h1::first-letter {
   font-size: 200%;
   color:teal;}
-#denno { position: relative;
-  left: 990px;
+#denno { display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;}
   #denno:hover {
   transform: scale(1.2);
@@ -27,7 +28,9 @@ button {height:60px;
      border-radius:20%;
      background-color:orange;
       position: relative;
-      left:1100px;
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
       text-align:center;
       border-radius:10px;
     font-weight: bold;
@@ -41,3 +44,6 @@ button {height:60px;
 button:hover {background-color:teal;
 height: 80px;
 width: 300px}
+#video { display: block;
+  margin-left: auto;
+  margin-right: auto;}
